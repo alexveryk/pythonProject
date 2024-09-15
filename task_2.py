@@ -4,6 +4,6 @@
 
 x = int(input("Enter a value for x: "))
 if x <= -3:
-    print(9)
+    print("F(x): 9")
 else:
-    print("F:",1 / (x**2 + 1))
+    print("F(x):", 1 / (x ** 2 + 1))
