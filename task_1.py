@@ -9,6 +9,8 @@ num_d = int(input("Enter the fourth number b: "))
 
 max_of_min = max(min(num_a,num_b), min(num_c,num_d ))
 
+
+
 print("There is a maximum of the minimum:", max_of_min)
 
 
