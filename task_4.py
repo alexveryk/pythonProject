@@ -11,8 +11,11 @@ for i in range(k):
     if i > 1:
         fib_sequence.append(fib_sequence[i-1] + fib_sequence[i-2])
 
+min_num = fib_sequence[0]
+max_num = fib_sequence[-1]
+
 print(fib_sequence)
-print("The least - ", fib_sequence[0],", the most -", fib_sequence[-1])
+print(f"The largest number - {max_num}, ", f"is the smallest - {min_num}, ", f"sum of numbers - {min_num + max_num}", )
 
 
 
