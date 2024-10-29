@@ -15,13 +15,13 @@ def middle_age(arr):
         acc = acc + i
     return acc / len(arr)
 
-#print(f"Середній вік: {middle_age(players):.2f}")
+print(f"Середній вік: {middle_age(players):.2f}")
 
 def age_difference(middle, arr):
     difference = middle - max(arr)
     return difference
 
-#print(f"Різниця середнього від максимального віку: {age_difference(middle_age(players), players):.2f}")
+print(f"Різниця середнього від максимального віку: {age_difference(middle_age(players), players):.2f}")
 
 """
 Дано два датасети( два списки(масиви, лісти) словників),вам потрібно порахувати, визначити 
